@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 class ResultSaver:
-    def __init__(self, save_folder_path='ML-SD2023\\Program\\frontend\\data_predictions'):
+    def __init__(self, save_folder_path='Simple_stock_forecast_app\\Program\\frontend\\data_predictions'):
         self.save_folder_path = save_folder_path
 
         # Проверяем, существует ли папка, если нет, создаем ее
